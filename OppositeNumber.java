@@ -8,12 +8,12 @@ public class Kata
 
 
 
-DESCRIPTION:
-Very simple, given an integer or a floating-point number, find its opposite.
+// DESCRIPTION:
+// Very simple, given an integer or a floating-point number, find its opposite.
 
-Examples:
+// Examples:
 
-1: -1
-14: -14
--34: 34
-FUNDAMENTALS
+// 1: -1
+// 14: -14
+// -34: 34
+// FUNDAMENTALS
