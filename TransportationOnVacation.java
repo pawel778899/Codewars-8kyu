@@ -1,3 +1,5 @@
+//Solution1
+
 public class Kata {
   private static final int COST_PER_DAY = 40;
   
@@ -8,6 +10,21 @@ public class Kata {
   }
 }
 
+//Solution 2
+
+public class Kata {
+  public static int rentalCarCost(int d) {
+      if(d>=7){
+      return d*40-50;
+    }
+    else  if(d>=3 && d<7){
+      return d*40-20;
+    } 
+    else {
+      return d*40;
+    }  
+  }
+}
 
 
 
