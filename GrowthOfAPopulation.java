@@ -1,3 +1,4 @@
+//Solution 1
 class Arge {
     public static int nbYear(int p0, double percent, int aug, int p) {
         int n = 0;
@@ -9,7 +10,17 @@ class Arge {
     }
   }
 
+//Solution 2
 
+class Arge {
+    
+    public static int nbYear(double p0, double percent, double aug, double p) {
+  
+  return p0 >= p ? 0 : nbYear((int) (p0 + aug + p0 * (percent / 100)), percent, aug, p) + 1;
+    }
+      }
+  
+      
 
 
 // DESCRIPTION:
