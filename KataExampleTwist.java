@@ -1,5 +1,6 @@
+//Solution 1
+    
 import java.util.*;
-
 public class KataExampleTwist
 {
     public static String[] kataExampleTwist()
@@ -8,6 +9,19 @@ public class KataExampleTwist
         Arrays.fill(websites,"codewars");
         return websites;
     }
+}
+
+//Solution 2
+
+public class KataExampleTwist
+{
+    public static String[] kataExampleTwist()
+    {
+        String[] websites = new String[1000];
+        java.util.Arrays.fill(websites,"codewars");
+        return websites;
+    }
+  
 }
 
 
