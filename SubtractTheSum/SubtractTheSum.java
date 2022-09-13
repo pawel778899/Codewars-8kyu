@@ -1,3 +1,5 @@
+//Solution 1
+
 public class Kata {
   public static final String APPLE = "apple";
 
@@ -8,6 +10,13 @@ public class Kata {
   private Kata() {}
 }
 
+//Solution 2
+
+public class Kata {
+  public static String subtractSum (int n) {
+    return "apple";
+  }
+}
 
 
 
